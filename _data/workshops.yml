@@ -1,0 +1,64 @@
+---
+- nick: COPLAS
+  name: >
+         Constraint Satisfaction Techniques for
+         Planning and Scheduling Problems
+  team: Miguel A. Salido and Roman Barták
+  contact: msalido@dsic.upv.es
+  ready: true
+- nick: GenPlan
+  name: Generalized Planning
+  team: Siddharth Srivastava, Sheila McIlraith, Ron Petrick and Vaishak Belle
+  contact: vaishak@ed.ac.uk
+  ready: true
+- nick: HSDIP
+  name: >
+         Heuristics and Search for Domain-independent Planning
+  team: >
+         J. Benton, Nir Lipovetzky, Miquel Ramrez, Enrico Scala,
+         Alvaro Torralba, Florian Pommerening and Jendrik Seipp
+  contact: hsdip17@googlegroups.com
+  ready: true
+- nick: IntEx 
+  name: >
+         Integrated Planning, Acting, and Execution:
+         Challenges and Competition Discussion
+  team: Mak Roberts, Sara Bernardini, Tim Neimueller, and Tiago Vaquero
+  contact: mark.roberts@nrl.navy.mil
+  ready: true
+- nick: KEPS
+  name: >
+         Knowledge Engineering for Planning and Scheduling
+  team: Lukas Chrpa, Mauro Vallati and Tiago Vaquero
+  contact: m.vallati@hud.ac.uk
+  ready: true
+- nick: PlanRob
+  name: Planning and Robotics
+  team: Alberto Finzi, Erez Karpas and Goldie Nejat
+  contact: alberto.finzi@unina.it
+  ready: true
+- nick: PlanSOpt
+  name: Planning, Search, and Optimization
+  team: Andre A. Cire, Christina Burt, Florian Pommerening, and Christian Muise
+  contact: cjmuise@mit.edu
+  ready: true
+- nick: PSHS
+  name: Planning and Scheduling for Healthcare and Society (canceled)
+  team: Michael Katz, Nir Lipovetzky and Scott Sanner
+  contact: katzm@il.ibm.com
+  ready: false
+- nick: SPARK
+  name: Scheduling and Planning Applications Workshop
+  team: >
+         Sara Bernardini, Shirin Sohrabi, Simon Parkinson,
+         and Kartik Talamadupula
+  contact: ssohrab@us.ibm.com
+  ready: true
+- nick: UISP
+  name: User Interfaces for/with Scheduling and Planning
+  team: >
+         Jeremy D. Frank, Richard G. Freedman, Amadeo Cesta, 
+         Subbarao Kambhampati, David Kortenkamp, Ronald P. A. Petrick, 
+         Kartik Talamadupula and Shlomo Zilberstein
+  contact: freedman@cs.umass.edu
+  ready: true
