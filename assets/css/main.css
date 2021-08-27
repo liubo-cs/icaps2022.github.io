@@ -2,6 +2,7 @@
     Halcyonic by HTML5 UP
     MODIFIED: By www.kristietaylor-muise.ca for ICAPS 2016
     MODIFIED: By Ron Alford for ICAPS 2017
+    MODIFIED: By Christian Muise for ICAPS 2022
     html5up.net | @n33co
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -180,6 +181,10 @@ li.groupby.downloads { display: none; }
 	width: 32px;
 }
 
+.transparent {
+/*background-color: rgba(255,255,255,0.5);*/
+        background-color: rgba(0,0,0,0.7);
+}
 
 /*CSS RESET
 ********************************************************************************/
@@ -593,7 +598,7 @@ nav ul li:hover ul {
 /*HOMEPAGE
 ********************************************************************************/
 #banner-main {
-    background-image:url('../../images/pgh-skyline.jpg');
+    background-image:url('../../images/gardens.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center top;
@@ -603,7 +608,7 @@ nav ul li:hover ul {
 }
 
 #banner {
-    background-image:url('../../images/pgh-skyline.jpg');
+    background-image:url('../../images/gardens.jpg');
     /*background-repeat: no-repeat;*/
     /*background-attachment: fixed;*/
     /*background-position: 0% 210%;*/
@@ -619,8 +624,8 @@ nav ul li:hover ul {
     font-weight: 300;
     text-shadow: 1px 1px 10px #6C6C6C;
     line-height: 1.3em;
-    margin: 0 0 7em 0;
-    padding:3.5em 0 4em 0;
+    margin: 1em 0 7em 0;
+    padding: 1em;
 }
 
 #banner a, #banner-main a {
