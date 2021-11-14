@@ -41,7 +41,7 @@ Depending on your system configuration, `sudo` may be required for any of these.
 
 ### Creating your pull request ###
 Use https://github.com/ICAPS2022/icaps2022.github.io/pulls to create a "Pull request", which will notify us that your changes are ready to apply, and we'll log on to merge them into the main site. I've created an example pull request here:
-https://github.com/ICAPS2022/icaps2022.github.io/pull/1
+https://github.com/ICAPS2022/icaps2022.github.io/pull/
 
 The website maintainers will be notified and (hopefully) approve the changes to the site, at which point they'll go live.
 
