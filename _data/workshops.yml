@@ -15,7 +15,7 @@
   name: Reliable Data-Driven Planning and Scheduling
   team: Jörg Hoffmann, Sara Bernardini, Alan Fern, Michele Lombardi, Hector Palacios, Scott Sanner, Marcel Steinmetz, Sylvie Thiebaux
   contact: hoffmann@cs.uni-saarland.de
-  ready: false
+  ready: true
 
 - nick: PlanRob
   name: Planning and Robotics
