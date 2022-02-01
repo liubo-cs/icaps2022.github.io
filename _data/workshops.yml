@@ -3,7 +3,7 @@
   name: Hierarchical Planning
   team: Pascal Bercher, Jane Jean Kiam, Arthur Bit-Monnot, Ron Alford
   contact: pascal.bercher@anu.edu.au
-  ready: false
+  ready: true
 
 - nick: PRL
   name: Bridging the Gap Between AI Planning and Reinforcement Learning
