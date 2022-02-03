@@ -39,7 +39,7 @@
   name: Planning for Financial Services
   team: Parisa Zehtabi, Alberto Pozanco, Shirin Sohrabi
   contact: ssohrab@us.ibm.com
-  ready: false
+  ready: true
 
 - nick: DAPSPAC
   name: Deception Against Planning Systems and Planning in Adversarial Conditions
@@ -63,4 +63,4 @@
   name: Knowledge Engineering for Planning and Scheduling
   team: Lukas Chrpa, Ron Petrick, Mauro Vallati, Tiago Vaquero
   contact: M.Vallati@hud.ac.uk
-  ready: false
+  ready: true
