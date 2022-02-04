@@ -33,7 +33,7 @@
   name: Integrated Planning, Acting, and Execution
   team: Wiktor Piotrowski, Sunandita Patra, Mark "Mak" Roberts, Tiago Vaquero
   contact: wiktorpi@parc.com
-  ready: false
+  ready: true
 
 - nick: FinPlan
   name: Planning for Financial Services
