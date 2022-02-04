@@ -51,7 +51,7 @@
   name: Heuristics and Search for Domain-independent Planning
   team: Liat Cohen, Patrick Ferber, Daniel Fiser, Michael Katz, Christian Muise
   contact: patrick.ferber@unibas.ch
-  ready: false
+  ready: true
 
 - nick: SPARK
   name: Scheduling and Planning Applications
