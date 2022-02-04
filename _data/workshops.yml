@@ -9,7 +9,7 @@
   name: Bridging the Gap Between AI Planning and Reinforcement Learning
   team: MIchael Katz, Hector Palacios, Vincenc Gomez
   contact: michael.katz1@ibm.com
-  ready: false
+  ready: true
 
 - nick: RDDPS
   name: Reliable Data-Driven Planning and Scheduling
