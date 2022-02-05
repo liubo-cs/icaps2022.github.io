@@ -56,8 +56,8 @@
 - nick: SPARK
   name: Scheduling and Planning Applications
   team: Marco Roveri,  Simon Parkinson,  Riccardo DeBenedictis,  Sabine Storandt
-  contact: riccardo.debenedictis@istc.cnr.it
-  ready: false
+  contact: marco.roveri@unitn.it
+  ready: true
 
 - nick: KEPS
   name: Knowledge Engineering for Planning and Scheduling
