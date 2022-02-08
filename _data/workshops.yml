@@ -27,7 +27,7 @@
   name: Workshop on Explainable AI Planning
   team: Sarath Sreedharan, Rebecca Eifler, Alan Lindsay, Silvia Tulli, Benjamin Krarup, Stylianos Loukas Vasileiou
   contact: ssreedh3@asu.edu
-  ready: false
+  ready: true
 
 - nick: IntEx
   name: Integrated Planning, Acting, and Execution
