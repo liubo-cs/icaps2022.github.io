@@ -21,7 +21,7 @@
   name: Planning and Robotics
   team: Iman Awaad, Alberto Finzi, Andrea Orlandini
   contact: andrea.orlandini@istc.cnr.it
-  ready: false
+  ready: true
 
 - nick: XAIP
   name: Workshop on Explainable AI Planning
