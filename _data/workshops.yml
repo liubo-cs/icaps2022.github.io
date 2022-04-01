@@ -9,7 +9,7 @@
   name: Bridging the Gap Between AI Planning and Reinforcement Learning
   team: MIchael Katz, Hector Palacios, Vincenc Gomez
   contact: michael.katz1@ibm.com
-  ready: false
+  ready: true
 
 - nick: RDDPS
   name: Reliable Data-Driven Planning and Scheduling
@@ -21,19 +21,19 @@
   name: Planning and Robotics
   team: Iman Awaad, Alberto Finzi, Andrea Orlandini
   contact: andrea.orlandini@istc.cnr.it
-  ready: false
+  ready: true
 
 - nick: XAIP
   name: Workshop on Explainable AI Planning
   team: Sarath Sreedharan, Rebecca Eifler, Alan Lindsay, Silvia Tulli, Benjamin Krarup, Stylianos Loukas Vasileiou
   contact: ssreedh3@asu.edu
-  ready: false
+  ready: true
 
 - nick: IntEx
   name: Integrated Planning, Acting, and Execution
   team: Wiktor Piotrowski, Sunandita Patra, Mark "Mak" Roberts, Tiago Vaquero
   contact: wiktorpi@parc.com
-  ready: false
+  ready: true
 
 - nick: FinPlan
   name: Planning for Financial Services
@@ -45,19 +45,19 @@
   name: Deception Against Planning Systems and Planning in Adversarial Conditions
   team: Lukas Chrpa, Mauro Vallati, Ron Alford, Andy Applebaum
   contact: ralford@mitre.org
-  ready: false
+  ready: true
 
 - nick: HSDIP
   name: Heuristics and Search for Domain-independent Planning
   team: Liat Cohen, Patrick Ferber, Daniel Fiser, Michael Katz, Christian Muise
   contact: patrick.ferber@unibas.ch
-  ready: false
+  ready: true
 
 - nick: SPARK
   name: Scheduling and Planning Applications
   team: Marco Roveri,  Simon Parkinson,  Riccardo DeBenedictis,  Sabine Storandt
-  contact: riccardo.debenedictis@istc.cnr.it
-  ready: false
+  contact: marco.roveri@unitn.it
+  ready: true
 
 - nick: KEPS
   name: Knowledge Engineering for Planning and Scheduling
