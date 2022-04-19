@@ -5,17 +5,7 @@ layout: page
 <div class="container">
   <div class="row">
     <div class="3u 12u(mobile) important(mobile)">
-      <section>
-        <header>
-          <h3>Tutorials</h3>
-        </header>
-        <ul class="check-list">
-          <li><a href="#tut1">Hands on Introduction to CALDERA, a Red-Blue Cyber Operations Automation Platform</a></li>
-          <li><a href="#tut2">Planning & Scheduling and Quantum Computing: what can they do for each other?</a></li>
-          <li><a href="#tut3">Efficient Neural-Symbolic Reasoning Via Reinforcement Learning</a></li>
-          <li><a href="#tut4">Representation learning for acting and planning: A top-down approach</a></li>
-          <li><a href="#tut5">CraftBots (co-run with IntEx Workshop)</a></li>
-        </ul>
+      {% include tutorials.html %}
     </div>
     <div class="9u 12u(mobile)">
 
@@ -31,100 +21,26 @@ layout: page
 
 </section> -->
 
-      <div id="tut1"></div>
-      <section>
-        <header>
-          <div class="row">
-            <div class="9u 12u(mobile)">
-              <h1>Hands on Introduction to CALDERA, a Red-Blue Cyber Operations Automation Platform</h1>
-              <h2><strong>Speakers:</strong> Corinne Magone, Ron Alford, Michael Kouremetis</h2>
-              <h2><strong>Duration:</strong> half-day</h2>
-            </div>
-            <!-- <div class="3u 12u(mobile)">
-              <a class="button float-right-button" href="/tutorials/T1-Planning-for-Robotics.pdf">Slides</a>
-            </div> -->
+    {% for tutorial in site.data.tutorials %}
+    <div id="{{ tutorial.nick }}"></div>
+    <section>
+      <header>
+        <div class="row">
+          <div class="9u 12u(mobile)">
+            <h1>{{ tutorial.name }}</h1>
+            <h2><strong>Speakers:</strong> {{ tutorial.team }}</h2>
+            <h2><strong>Duration:</strong> {{ tutorial.length }}</h2>
           </div>
-        </header>
+          <!-- <div class="3u 12u(mobile)">
+            <a class="button float-right-button" href="/tutorials/T1-Planning-for-Robotics.pdf">Slides</a>
+          </div> -->
+        </div>
+      </header>
 
-        <!-- <h3>Summary:</h3>
-        <p>Coming soon...</p> -->
-      </section>
-
-      <div id="tut2"></div>
-      <section>
-        <header>
-          <div class="row">
-            <div class="9u 12u(mobile)">
-              <h1>Planning & Scheduling and Quantum Computing: what can they do for each other?</h1>
-              <h2><strong>Speakers:</strong>Marco Baioletti, Angelo Oddi, Riccardo Rasconi</h2>
-              <h2><strong>Duration:</strong> half-day</h2>
-            </div>
-            <!-- <div class="3u 12u(mobile)">
-              <a class="button float-right-button" href="/tutorials/T1-Planning-for-Robotics.pdf">Slides</a>
-            </div> -->
-          </div>
-        </header>
-
-        <!-- <h3>Summary:</h3>
-        <p>Coming soon...</p> -->
-      </section>
-
-      <div id="tut3"></div>
-      <section>
-        <header>
-          <div class="row">
-            <div class="9u 12u(mobile)">
-              <h1>Efficient Neural-Symbolic Reasoning Via Reinforcement Learning</h1>
-              <h2><strong>Speakers:</strong> Bo Liu, Daoming Lyu, Jianshu Chen, Akshat Kumar, Jiajing Ling</h2>
-              <h2><strong>Duration:</strong> half-day</h2>
-            </div>
-            <!-- <div class="3u 12u(mobile)">
-              <a class="button float-right-button" href="/tutorials/T1-Planning-for-Robotics.pdf">Slides</a>
-            </div> -->
-          </div>
-        </header>
-
-        <!-- <h3>Summary:</h3>
-        <p>Coming soon...</p> -->
-      </section>
-
-      <div id="tut4"></div>
-      <section>
-        <header>
-          <div class="row">
-            <div class="9u 12u(mobile)">
-              <h1>Representation learning for acting and planning: A top-down approach</h1>
-              <h2><strong>Speakers:</strong> Blai Bonet and Hector Geffner</h2>
-              <h2><strong>Duration:</strong> quarter-day</h2>
-            </div>
-            <!-- <div class="3u 12u(mobile)">
-              <a class="button float-right-button" href="/tutorials/T1-Planning-for-Robotics.pdf">Slides</a>
-            </div> -->
-          </div>
-        </header>
-
-        <!-- <h3>Summary:</h3>
-        <p>Coming soon...</p> -->
-      </section>
-
-      <div id="tut5"></div>
-      <section>
-        <header>
-          <div class="row">
-            <div class="9u 12u(mobile)">
-              <h1>CraftBots (co-run with IntEx Workshop)</h1>
-              <h2><strong>Speakers:</strong> Michael Cashmore and Liudvikas Nemiro</h2>
-              <h2><strong>Duration:</strong> quarter-day</h2>
-            </div>
-            <!-- <div class="3u 12u(mobile)">
-              <a class="button float-right-button" href="/tutorials/T1-Planning-for-Robotics.pdf">Slides</a>
-            </div> -->
-          </div>
-        </header>
-
-        <!-- <h3>Summary:</h3>
-        <p>Coming soon...</p> -->
-      </section>
+      <!-- <h3>Summary:</h3>
+      <p>Coming soon...</p> -->
+    </section>
+    {% endfor %}
 
     </div>
   </div>
